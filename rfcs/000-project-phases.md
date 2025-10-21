@@ -22,9 +22,11 @@ We plan to build things incrementally, from inside out, adding and expanding onl
 We will group development from now till version 1.0 into three phases.
 
 In the **first phase** of this project, we will focus **exclusively** on the narrowest definition of environments, without even worrying about rewards nor evals. Instead, the focus in this phase (and in the RFCs you find in this directory) is going to be on:
-1. Establishing a convention on what is an environment and where we draw the "environment" box.
-2. Nailing our tools support
-3. Landing the basics of _sandboxing_, _versioning_, _binary distribution_, _dependency management_.
+1. Establishing a convention on what is an environment and where we draw the "environment" box (RFC 001).
+2. Landing the basics of _sandboxing_, _versioning_, _binary distribution_, _dependency management_ (RFC 002).
+3. Nailing our tools support through MCP (Model Context Protocol) integration (RFC 003).
+4. Defining a unified action interface for all environment types (RFC 004).
+
 
 We will conclude this phase with version 0.3.
 
